@@ -2,7 +2,7 @@
 '''A square class'''
 
 
-class square():
+class Square():
     """
     A square class
     Attributes:
