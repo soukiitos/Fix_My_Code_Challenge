@@ -2,7 +2,7 @@
 '''A square class'''
 
 
-class Square():
+class Square:
     """
     A square class
     Attributes:
@@ -17,9 +17,9 @@ class Square():
 
     def area_of_my_square(self):
         """ Define the Area of the square """
-        return self.width * self.width
+        return self.width * self.height
 
-    def PermiterOfMySquare(self):
+    def perimeter_of_my_square(self):
         '''Define the perimeter of the square'''
         return (self.width * 2) + (self.height * 2)
 
@@ -31,4 +31,4 @@ class Square():
         s = Square(width=12, height=9)
         print(s)
         print(s.area_of_my_square())
-        print(s.PermiterOfMySquare())
+        print(s.perimeter_of_my_square())
