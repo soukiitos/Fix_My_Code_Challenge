@@ -27,8 +27,9 @@ class Square:
         '''Define the string of the square'''
         return "{}/{}".format(self.width, self.height)
 
-    if __name__ == "__main__":
-        s = Square(width=12, height=9)
-        print(s)
-        print(s.area_of_my_square())
-        print(s.perimeter_of_my_square())
+
+if __name__ == "__main__":
+    s = Square(width=12, height=9)
+    print(s)
+    print(s.area_of_my_square())
+    print(s.perimeter_of_my_square())
